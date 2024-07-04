@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style12.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Student Registration Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="Student Roll No:">Student Roll No:</label>
+                <input type="number" id="Student Roll No:" name="Student Roll No:" required>
+            </div>
+            <div class="form-group">
+                <label for="Student Name">Student Name:</label>
+                <input type="text" id="Student Name" name="Student Name" required>
+            </div>
+          
+            <div class="form-group">
+                <label for="Dept ">Dept:</label>
+                <select id="Dept" name="Dept" required>
+                    <option value="cse">CSE</option>
+                    <option value="ece">ECE</option>
+                    <option value="eee">EEE</option>
+                    <option value="it">IT</option>
+                    <option value="aiml">AIML</option>
+
+                </select>
+            </div>
+           
+            <div class="form-group">
+                <label for="">10th mark in %</label>
+                <input type="number" maxlength="100" name="10th mark" required>
+            </div>
+                <div class="form-group">
+                    <label for="">12th mark in %</label>
+                    <input type="number" maxlength="100" name="12th mark" required>
+                </div>
+
+                    <div class="form-group">
+                        <label for="">UG/PG mark in%</label>
+                        <input type="number" maxlength="100" name="UG/PG mark" required>   
+                    </div>  
+             
+            <div class="form-group">
+                <button type="submit">register</button><br><br>
+                <button type="submitt">cancel</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
